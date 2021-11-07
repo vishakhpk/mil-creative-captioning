@@ -10,7 +10,7 @@ https://<server domain>:<port number>?model=<model idx>&idx=<image idx>
 3. The backend where you host the server also needs a GPU since it runs an inference for every interaction.
 4. Once an interaction is complete, the results are saved in a pickle file indexed by a generated UID. We collect the UID in MTurk and correspond it to the results.
 5. Image of interface in practise:
-![Interface With Suggestions](./Image-Source/Interface-with-Suggestions.png)
+![Interface With Suggestions](./Image-Source/Interface-With-Suggestions.png)
 
 ## Run command
 
