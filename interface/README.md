@@ -1,4 +1,5 @@
 ## Work in progress
+TODO: Test if any modified ParlAI code needs to be released. HTML and JS code is good to go.  
 
 ## Web Interface
 
@@ -11,6 +12,7 @@ https://<server domain>:<port number>?model=<model idx>&idx=<image idx>
 4. Once an interaction is complete, the results are saved in a pickle file indexed by a generated UID. We collect the UID in MTurk and correspond it to the results.
 5. Image of interface in practise:
 ![Interface With Suggestions](./Image-Source/Interface-With-Suggestions.png)
+6. We sampled images from the Figurative subset of the [Deja Captions dataset](https://www3.cs.stonybrook.edu/~jianchen/). (Associated [Paper](https://aclanthology.org/N15-1053/))
 
 ## Run command
 
