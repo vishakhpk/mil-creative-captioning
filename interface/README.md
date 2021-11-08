@@ -1,5 +1,4 @@
 ## Work in progress
-TODO: Test if any modified ParlAI code needs to be released. HTML and JS code is good to go.  
 
 ## Web Interface
 
@@ -15,7 +14,7 @@ https://<server domain>:<port number>?model=<model idx>&idx=<image idx>
 6. We sampled images from the Figurative subset of the [Deja Captions dataset](https://www3.cs.stonybrook.edu/~jianchen/). (Associated [Paper](https://aclanthology.org/N15-1053/))
 
 ## Run command
-
+We used top-k sampling and a beam size of 10 when running interactive experiments but you can play around with this/reranking returned suggestions to trade off responsiveness with increased number of suggestions
 ```
-python3 interactive_web.py --model bart --init-fairseq-model /path/to/fairseq/checkpoint_best.pt --inference topk --host 0.0.0.0 --port 12000
+python3 interactive_web.py --model bart --init-fairseq-model /path/to/fairseq/checkpoint_best.pt --inference topk --beam_size 10 --host 0.0.0.0 --port 12000
 ```

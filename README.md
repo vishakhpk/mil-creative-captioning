@@ -1,5 +1,4 @@
 ## Machine-in-the-Loop Rewriting for Creative Image Captioning
-## Work In Progress
 
 ## Data
 
@@ -13,14 +12,14 @@ Annotated sources of data used in the paper:
 | [Niculae et al.](https://aclanthology.org/D14-1215/) | [Link](http://vene.ro/figurative-comparisons/) |
 | [Steen et al.](https://benjamins.com/catalog/celcr.14) | [Link](http://www.vismet.org/metcor/search/showPage.php?page=start) |
 
-### TODO: Individual data cleaning scripts
+#### TODO: Individual data cleaning scripts
 
 ## Model Training
 
-Follow the README in the model\_training directory to train a Fairseq BART model
+Follow the README in the model\_training directory to train a Fairseq BART model. [Reach out](mailto:vishakh@nyu.edu) for our trained model.
 
 ## Interface
 
-Code to run the UI we used on MTurk for interactive experiments.
+Code to run the UI we used for interactive experiments. This UI hosts a server and needs you to have a backend GPU to run model inference during interaction. The code saves each interaction with a unique ID which we use to match to our crowdworkers for experimental analysis. 
 
-### TODO: Retest the UI to see if any Parlai modified code needs to be released
+#### TODO: Data Processing Scripts to filter results 
