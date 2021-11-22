@@ -17,9 +17,11 @@ Annotated sources of data used in the paper:
 ## Model Training
 
 Follow the README in the model\_training directory to train a Fairseq BART model. [Reach out](mailto:vishakh@nyu.edu) for our trained model.
+#### TODO: Upload model checkpoint to drive
 
 ## Interface
 
 Code to run the UI we used for interactive experiments. This UI hosts a server and needs you to have a backend GPU to run model inference during interaction. The code saves each interaction with a unique ID which we use to match to our crowdworkers for experimental analysis. 
 
 #### TODO: Data Processing Scripts to filter results 
+
